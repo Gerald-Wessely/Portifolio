@@ -1,0 +1,12 @@
+body {
+        background-color: #000;
+        color: #f6f6f6f6;
+}
+
+strong {
+}
+span {
+    color: #22D4FD;
+    border: 1px solid #22D4FD;
+    padding: 10px;
+}
