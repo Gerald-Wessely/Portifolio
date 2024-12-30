@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --cor-primaria: #131010;
+    --cor-secudaria: #F2F9FF;
+    --cor-terciaria: #66785F;
+    --cor-hover: #91AC8F;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secudaria);
+}
+.apresentacao{
+    padding: 5% 12%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.apresentacao__conteudo {
+width: 615px;
+display: flex;
+flex-direction: column;
+gap: 40px;
+}
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+    font-family:  var(--fonte-primaria);
+}
+.apresentacao__conteudo__paragrafo{
+    font-size: 16px;
+    font-family: var(--fonte-secundaria);
+}
+.titulo-destaque{
+    color: var(--cor-terciaria);
+}
+.cabecalho {
+    padding: 2% 0% 0% 12%;
+}
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+    
+}
+.cabecalho__menu__link {
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+}
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    justify-content: space-evenly;
+}
+.apresentacao__links__subtitulo{
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 24px;
+}
+.apresentacao__links__links{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--cor-terciaria);
+    text-decoration: none;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21,5px 0;
+    color: var(--cor-secudaria);
+    font-family: var(--fonte-secundaria);
+}
+.apresentacao__links__links:hover {
+    background-color: var(--cor-hover);
+    color: var(--cor-terciaria);
+    padding: 2%;
+}
+.rodape{
+    padding: 24px;
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 400;
+}
